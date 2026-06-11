@@ -11,7 +11,7 @@ E = EllipticCurve(GF(p), [a, b])
 G_x = 0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
 G = E.lift_x(G_x, all=True)[0]  # Extract the first element
 pub_key_x = 0x0b8a0382802e12fc345e9bace8b99f6aed6b90fbfd796e8027ca9bb5f472778d
-pub_key_y = 0x23r4fwd2dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pub_key_y = 0xb863952bdb6e9e399e34f941cab2fa6c244e65af2d15244fee2d795b3f6e222d
 pub_key = E((pub_key_x, pub_key_y))
 
 # Define parameters for index calculus attack
